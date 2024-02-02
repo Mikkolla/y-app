@@ -1,0 +1,81 @@
+
+
+.gaps{
+    position: relative;
+    z-index: -1;
+    position: fixed;
+    top:768px;
+    
+}
+
+
+.nav{
+    position: relative;
+
+        
+    
+    z-index: 1;
+ 
+}
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    gap: 140px;
+    position: fixed;
+
+    
+
+    &__left {
+        display: flex;
+        gap: 50px;
+        margin-top: 25px;
+    }
+
+    &__right{
+        margin-top: 25px;
+        display: flex;
+        margin-right: 0px;
+        
+        gap: 50px;
+    }
+
+    &__icon{}
+
+}
+
+
+
+
+
+
+
+
+.btn{
+   position: absolute;
+   left: 177px;
+   bottom: 66px;
+   z-index: 2;
+}
+
+.icon{
+   position: absolute;
+   bottom: 86px;
+   left: 187px;
+   z-index: 3;
+}
+
+.fill{
+    position: absolute;
+    left: 172px;
+    bottom: 56px;
+
+    z-index: 1;
+   
+}
+
+.img{
+    position: absolute;
+}

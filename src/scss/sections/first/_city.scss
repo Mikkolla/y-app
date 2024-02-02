@@ -1,0 +1,68 @@
+
+.svg{
+    position: absolute;
+    top: 15px;
+    right: 14px;
+
+    &:hover{
+            
+        
+    }
+}
+.city{
+    padding: 20px;
+    display: grid;
+    z-index: -1;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    &__block{
+        width: 168px;
+        height: 207px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-bottom: 40px;
+        background: rgba(255, 255, 255, 0.60);
+    }
+
+    &__img{
+        position: relative;
+        padding-left: 8px;
+        padding-top: 8px;
+    }
+
+    &__about{
+        padding-left: 8px;
+        padding-bottom: 9px;
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;        
+        
+    }
+
+    &__marks{
+        display: flex;
+    }
+
+    &__title{
+        color: #000;
+font-family: Prompt;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+
+    &__country {
+        color: #000;
+font-family: Prompt;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+
+
+}

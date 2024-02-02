@@ -1,0 +1,57 @@
+.test{
+    max-width: 393px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline:auto ;
+    }
+
+.status{
+    z-index: 11;
+    min-height: 59px;
+    
+    position: fixed;
+    width: 393px;
+    
+    
+    border: 0.5px solid rgba(0, 0, 0, 0.60);
+background: rgba(23, 32, 94, 0.60);
+backdrop-filter: blur(25px);
+    
+    border-radius: 50px 50px 0px 0px; 
+    &__time{
+        padding-left: 40px;
+        color: #000;
+        
+font-feature-settings: 'case' on;
+
+/* Body/Bold */
+font-family: "SF Pro Text";
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 129.412% */
+letter-spacing: -0.408px;
+    }
+
+    &__camera{
+        margin-top: 10px;
+       padding-left: 40px;
+        
+    }
+
+    &__widget{
+        display: flex;
+        gap: 8px;
+        max-width: 63px;
+        padding-right: 40px;
+        
+        align-items: center;
+        
+        
+        
+    }
+
+
+
+}

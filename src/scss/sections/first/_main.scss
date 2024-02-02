@@ -1,0 +1,67 @@
+
+
+.main{
+    padding-left: 32px;
+    
+
+    
+    &__sonata{
+        width: 44px;
+        height: 44px;
+      
+    }
+
+    &__name{
+        color: #000;
+text-align: center;
+font-family: Prompt;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 110% */
+letter-spacing: -0.408px;
+    }
+
+    &__img{
+        position: relative;
+    }
+
+
+    &__profile{
+        margin-top: 75px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 27px;
+    }
+
+    &__lane{
+        
+    }
+
+
+    &__plane{
+        width: 353px;
+        height: 200px;
+        border-radius: 30px;
+        
+    }
+
+    &__title{
+        color: rgba(0, 0, 0, 0.87);
+font-family: Prompt;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 73.333% */
+letter-spacing: -0.408px;
+position: absolute;
+top: 25px;
+left: 25px;
+max-width: 250px;
+    }
+
+
+
+
+}

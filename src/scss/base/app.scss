@@ -1,0 +1,47 @@
+body{
+    background-color: #E0C499;
+  
+}
+
+.container{
+    
+    max-width: 1030px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-inline:auto ;
+    background-color:#73E519;
+    
+       @media (max-width: 1000px) {
+            background-color: red;
+            flex-direction: column;
+         }
+       
+    
+}
+
+.wrapper{
+    overflow-y: scroll;
+   
+   
+    height: 852px;
+    border-radius: 50px;
+background: linear-gradient(180deg, #FCFCFE 0%, #8B93DB 100%);
+
+}
+// ===== SCROLL CUSTOMIZE =====
+*::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  * ::-webkit-scrollbar-thumb {
+    
+    background-color: #d1d1d1;
+  }
+  
+
+  
